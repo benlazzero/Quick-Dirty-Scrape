@@ -1,5 +1,5 @@
 <p align="center">
-https://raw.githubusercontent.com/benlazzero/Quick-Dirty-Scrape/main/logo.png?token=GHSAT0AAAAAABXE5W5PWX6IALG4ZZLPJE4KYYZDRPA
+  <img src="https://raw.githubusercontent.com/benlazzero/Quick-Dirty-Scrape/main/logo.png">
 </p>
 
 ------------------------------------
