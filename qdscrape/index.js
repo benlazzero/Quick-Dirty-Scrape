@@ -9,7 +9,7 @@ const formatTag = (tag) => {
   return checkedTag;
 }
 
-const scrapeAndParse = async (url, tag) => {
+const quickDirtyScrape = async (url, tag) => {
   let checkedTag = formatTag(tag);
   const decodedHtml = await getHtml(url);
   const parsedHtml = parseHtml(decodedHtml, checkedTag);
@@ -18,5 +18,5 @@ const scrapeAndParse = async (url, tag) => {
 
 module.exports = {
   formatTag, 
-  scrapeAndParse
+  quickDirtyScrape
 };
