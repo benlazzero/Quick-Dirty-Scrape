@@ -32,13 +32,15 @@ const scrapeSite = async() => {
 console.log(scrapeSite()) // ['text from first div', 'text from second div'...]
 ```
 
-### Behavior 
+### Behavior
 
-On success the scraper will return an array of strings containing the text inbetween the tag specified.
+`NOTE: Returns a promise`
 
-On failure the scraper will return an empty array.
+On success the scraper will return an array of strings containing the text in between the tag specified.
 
-If a tag is not specified the scraper will default to a `<li>` tag.
+On failure the scraper will return an empty array. Could be the case when the url is bad or tag is not found.
+
+If a tag is not specified as a parameter the scraper will default to a `<li>` tag.
 
 ### Build 
 
