@@ -38,4 +38,22 @@ On success the scraper will return an array of strings containing the text inbet
 
 On failure the scraper will return an empty array.
 
-If a tag is not specified the scraper will default to a <li> tag.
+If a tag is not specified the scraper will default to a `<li>` tag.
+
+### Build 
+
+```bash
+git clone https://github.com/benlazzero/Quick-Dirty-Scrape
+cd Quick-Dirty-Scrape
+npm install
+```
+
+Running tests with Jest
+```bash
+npm test 
+```
+
+Running the example file (uses nodemon to restart on saves)
+```bash
+npm start
+```
