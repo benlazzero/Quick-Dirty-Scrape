@@ -3,10 +3,7 @@
 </p>
 
 ------------------------------------
-<<<<<<< HEAD
 `https://www.npmjs.com/package/qd-scraper`
-=======
->>>>>>> d1aa3321a93e300f7dd78000697726e9a9b746aa
 
 For scraping website text data quick and dirty.
 
@@ -36,12 +33,9 @@ console.log(scrapeSite()) // ['text from first div', 'text from second div'...]
 ```
 
 ### Behavior 
-<<<<<<< HEAD
 
 On success the scraper will return an array of strings containing the text inbetween the tag specified.
 
 On failure the scraper will return an empty array.
 
 If a tag is not specified the scraper will default to a <li> tag.
-=======
->>>>>>> d1aa3321a93e300f7dd78000697726e9a9b746aa
