@@ -13,6 +13,7 @@ QDScraper boasts zero 3rd-party dependencies by making use of the nodejs https l
 However I will merge all pulls that pass tests, simplify the code, and add accuracy.
 
 ### NPM Installation
+`WARNING: NODE >= 16.17.0` 
 
 ```bash
 cd your-root-dir
@@ -22,14 +23,14 @@ npm install qd-scraper
 ### Example
 
 ```javascript
-const scraper = require('qd-scraper');
+var qdScraper = require("qd-scraper")
 
 const scrapeSite = async() => {
-  let ArrayOfData = await scraper('https://website.com/', 'div');
-  return ArrayOfData;
+  let ArrayOfData = await qdScraper('https://website.com/', 'div');
+  console.log(ArrayOfData);
 }
-
-console.log(scrapeSite()) // ['text from first div', 'text from second div'...]
+ 
+scrapeSite(); // ['text from first div', 'text from second div'...]
 ```
 
 ### Behavior
